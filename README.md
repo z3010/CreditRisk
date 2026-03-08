@@ -22,9 +22,9 @@ Each model is evaluated on the 80/20 train/test split using the following metric
 3) GINI - directly obtained using AUC (GINI = 2 × AUC − 1).Higher GINI value means that the model is better in distinguishing risky customers.(target: > 0.40)
 # SHAP
 SHAP values are computed for all models to explain individual predictions:
-1)Bar plot- mean absolute SHAP value per feature (global importance)
-2)Beeswarm plot- distribution of SHAP values across all test samples
-3)Waterfall plot - single borrower explanation for a high-risk case (PD > 0.60
+1) Bar plot- mean absolute SHAP value per feature (global importance)
+2) Beeswarm plot- distribution of SHAP values across all test samples
+3) Waterfall plot - single borrower explanation for a high-risk case (PD > 0.60
 # RESULTS
 1) IV Analysis:
    <img width="2019" height="914" alt="image" src="https://github.com/user-attachments/assets/90a76ad6-3b93-470f-a96e-f79106cd1064" />
